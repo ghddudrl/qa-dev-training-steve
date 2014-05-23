@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System;
 using NUnit.Framework;
 
-namespace DevTraining
+namespace Chapter_08
 {
     [TestFixture]
-    public class Ex08
+    public class Chapter_08_Excercises
     {
 
         /// <summary>
@@ -30,7 +27,7 @@ namespace DevTraining
             }
         }
         [Test]
-        public void Ex81()
+        public void Example_81()
         {
             int first = 5;
             int second = 10;
@@ -77,7 +74,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex82()
+        public void Example_82()
         {
             Dog dog = new Dog();
 
@@ -108,7 +105,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex83()
+        public void Example_83()
         {
             int forDouble = 0;
             int forTriple = 0;
@@ -125,7 +122,7 @@ namespace DevTraining
 
 
         [Test]
-        public void Ex84()
+        public void Example_84()
         {
             int forDouble;
             int forTriple;
@@ -171,7 +168,7 @@ namespace DevTraining
             }
         }
     }
-
+    
     namespace Example_8_1____Overloading
     {
         public class Box

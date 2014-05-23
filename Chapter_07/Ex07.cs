@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System;
 using NUnit.Framework;
 
-namespace DevTraining
+namespace Chapter_07
 {
     [TestFixture]
-    public class Ex07
+    public class Chapter_07_Examples
     {
         public class Box_7_1
         {
@@ -160,7 +157,7 @@ namespace DevTraining
             red.PrintName();
 
             var foo = new {Color = "Blue", Size = 25}; // These fields are read-only..
-            
+
             var blue = new Dog();
             blue.name = foo.Color;
             blue.weight = foo.Size;
@@ -284,7 +281,7 @@ namespace DevTraining
                                   milo.weight, fido.weight);
             }
         }
-        
+
         [Test]
         public void Main_7_7()
         {
@@ -292,9 +289,13 @@ namespace DevTraining
             t.Run();
         }
 
+    }
+    
+    [TestFixture]
+    public class Chapter_07_Excercises
+     {
 
-
-        /// <summary>
+    /// <summary>
         /// //////////////////////////////////////
         /// </summary>
         
@@ -393,7 +394,7 @@ namespace DevTraining
         {
             private string title;
             private string author;
-            private string publisher = "O’Reilly";
+            private string publisher = "O�Reilly";
             private string ISBN;
 
             public Book(string title, string author, string ISBN)

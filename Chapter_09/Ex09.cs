@@ -1,14 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System;
 using NUnit.Framework;
 
-namespace DevTraining
+namespace Chapter_09
 {
-    [TestFixture]
-    public class Ex09
+    //[TestFixture]
+    public class Chapter_09_Excercises
     {
+        [TestFixture]
         public class Exercise_9_1_Tester
         {
             public void Run()

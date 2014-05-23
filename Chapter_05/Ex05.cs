@@ -1,16 +1,15 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using NUnit.Framework;
 
-namespace DevTraining
+namespace Chapter_05
 {
     [TestFixture]
-    public class Ex05
+    public class Chapter_05_Examples
     {
         [Test]
-        public void Ex51()
+        public void Example_51()
         {
             int count;
             int loopcount;
@@ -50,7 +49,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex52()
+        public void Example_52()
         {
             string buf = "0, 90, 120, 21, 351315511";
             List<string> strInputList = new List<string>();
@@ -96,7 +95,7 @@ namespace DevTraining
             zero, even, odd, multipleOfTen, tooBig, unknown
         }
         [Test]
-        public void Ex53()
+        public void Example_53()
         {
             string buf = "0, 90, 120, 21, 351315511";
             List<string> strInputList = new List<string>();
@@ -149,7 +148,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex54()
+        public void Example_54()
         {
             int i; // for count up
             int j; // for count down

@@ -9,11 +9,11 @@ using NUnit.Framework;
 namespace Challenge
 {
     [TestFixture]
-    public class Challenge
+    public class Challenges_1
     {
-        
+
         [Test]
-        public void Challenge_1()
+        public void Sum_of_all_the_multiples_of_3_or_5()
         {
             int val;
             decimal buff;
@@ -22,7 +22,7 @@ namespace Challenge
             buff = 0;
             for (val = 1; val < 10; val++)
             {
-                if ((val % 3 == 0) || (val % 5 == 0))
+                if ((val%3 == 0) || (val%5 == 0))
                 {
                     buff += val;
                     Console.WriteLine("val = {0}, buff = {1}", val, buff);
@@ -31,19 +31,22 @@ namespace Challenge
 
             Console.WriteLine("\nBelow 1000");
             buff = 0;
-            for (val = 1; val<1000; val++)
+            for (val = 1; val < 1000; val++)
             {
-                if ((val % 3 == 0 ) || (val % 5 == 0))
+                if ((val%3 == 0) || (val%5 == 0))
                 {
                     buff += val;
                     Console.WriteLine("val = {0}, buff = {1}", val, buff);
                 }
             } // 233168
         }
+    }
 
+    public class Challenges_2
+    {
 
         [Test]
-        public void Challenge_2()
+        public void Sum_of_the_even_valued_terms_in_Fibonacci_sequence()
         {
             decimal sumOfeven = 0;
 
@@ -55,7 +58,7 @@ namespace Challenge
                 int result = simpleFibonacci(cnt);
                 Debug.WriteLine(" > simpleFibonacci result[{0}] = {1}", cnt, result);
 
-                if (result <= limitNum && result % 2 == 0)
+                if (result <= limitNum && result%2 == 0)
                     sumOfeven += result;
                 else if (result > limitNum)
                     break;
@@ -65,7 +68,7 @@ namespace Challenge
 
             //MyFibonacci(limitNum, out sumOfeven);// Sum of even numbers : 4613732
             //Console.WriteLine("\n3) Sum of even numbers : {0} for limit value [{1}]\n", sumOfeven, limitNum);
-            
+
 
         }
 
@@ -101,7 +104,7 @@ namespace Challenge
                 even_sum = 0;
                 return;
             }
-            else if(end_val == 1)
+            else if (end_val == 1)
             {
                 even_sum = 1;
                 return;
@@ -127,7 +130,7 @@ namespace Challenge
                     if (list_result[cnt]%2 == 0)
                     {
                         list_even.Add(list_result[cnt]);
-                        
+
                     }
                     cnt++;
                 }
@@ -140,7 +143,7 @@ namespace Challenge
                     Debug.WriteLine("Fibonacci sequence[{0}] : {1}", cnt, v);
                     cnt++;
                 }
-                
+
                 cnt = 0;
                 foreach (decimal v in list_even)
                 {

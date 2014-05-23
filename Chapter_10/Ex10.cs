@@ -1,13 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System;
 using NUnit.Framework;
 
-namespace DevTraining
+namespace Chapter_10
 {
     [TestFixture]
-    public class Ex10
+    public class Chapter_10_Examples
     {
         public class Button
         {
@@ -456,7 +453,7 @@ namespace DevTraining
 
 
     [TestFixture]
-    public class Excercise_10
+    public class Chapter_10_Excercises
     {
         public class Dog
         {

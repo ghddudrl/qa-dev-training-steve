@@ -1,8 +1,7 @@
-﻿using System;
-using LibraryExample;
+using System;
 using NUnit.Framework;
 
-namespace week1
+namespace DevTraining
 {
     [TestFixture]
     public class Week1

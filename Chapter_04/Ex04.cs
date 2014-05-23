@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using NUnit.Framework;
 
-namespace DevTraining
+namespace Chapter_04
 {
     [TestFixture]
-    public class Ex04
+    public class Chapter_04_Examples
     {
         [Test]
-        public void Ex41()
+        public void Example_41()
         {
             int x = 25;
             int y = 5;
@@ -23,7 +23,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex42()
+        public void Example_42()
         {
             int varA = 5;
             int varB = ++varA;
@@ -33,7 +33,7 @@ namespace DevTraining
 
         //enum Person : int { Abby = 135, Bob = 175, Charlie = 55, Dawn = 45 };
         [Test]
-        public void Ex43()
+        public void Example_43()
         {
             int passengers = 2;
             const int minWeightLimit = 100;
@@ -87,7 +87,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex44()
+        public void Example_44()
         {
             const float Pi = 3.14159f;
             const float radius = 5f;
@@ -105,7 +105,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex45()
+        public void Example_45()
         {
             int passengers = 2;
             const int minWeightLimit = 100;

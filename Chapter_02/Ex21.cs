@@ -1,16 +1,15 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Data;
-//using System.Data.Linq;
-//using System.Data.Linq.Mapping;
 using NUnit.Framework;
 
-namespace DevTraining
+//using System.Data.Linq;
+//using System.Data.Linq.Mapping;
+
+namespace Chapter_02
 {
     [TestFixture]
-    public class Ex21
+    public class Chapter_02_Examples
     {
         public class Book
         {

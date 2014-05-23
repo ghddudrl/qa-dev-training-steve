@@ -1,17 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System;
 using NUnit.Framework;
 
-namespace DevTraining
+namespace Chapter_03
 {
     [TestFixture]
-    public class Ex03
+    public class Chapter_03_Examples
     {
         [Test]
-        public void Ex31()
+        public void Example_31()
         {
             int i = 42;
             float f = 98.6F;
@@ -27,7 +23,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex32()
+        public void Example_32()
         {
             int i = 42;
             float f = 98.6F;
@@ -49,7 +45,7 @@ namespace DevTraining
         }
 
         [Test]
-        public void Ex33()
+        public void Example_33()
         {
             const double Pi = 3.14159;
 
@@ -62,7 +58,7 @@ namespace DevTraining
 
         enum Months : byte { January = 1, Fabruary = 2, March = 3, April = 4, May = 5, June = 6, July = 7, August = 8, September = 9, October = 10, November = 11, December = 12 };
         [Test]
-        public void Ex34()
+        public void Example_34()
         {
             Console.Out.WriteLine("The value of June = {0}", (int)Months.June);
         }
