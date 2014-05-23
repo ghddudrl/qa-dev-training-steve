@@ -1,18 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System;
 using NUnit.Framework;
 
-namespace DevTraining
-{
-    class FunTimer
-    {
-    }
-}
-
-
-namespace FunTimer
+namespace Misc
 {
     [TestFixture]
     public class FunTimer
@@ -57,7 +46,7 @@ namespace FunTimer
                     Console.WriteLine(" >> sec %= 60 : " + sec);
 
                     Console.WriteLine("You have {0} day(s), {1} hour(s), {2} minute(s), and {3} second(s) left", days,
-                        hours, min, sec);
+                                      hours, min, sec);
                 }
                 else
                 {

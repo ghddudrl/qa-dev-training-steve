@@ -1,13 +1,11 @@
 using System;
 using NUnit.Framework;
 
-namespace DevTraining
+namespace Misc
 {
     [TestFixture]
     public class Week1
     {
-        private DateTime _dateTime;
-
         [Test]
         public void ImplicitCasting()
         {
